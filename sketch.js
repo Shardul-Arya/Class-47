@@ -289,8 +289,8 @@ function draw() {
     }
 
     if (gameState === "end") {
-        //camera.position.x = 1800;
-        //camera.position.y = 350
+        camera.position.x = 1800;
+        camera.position.y = 350
         rocketGroup.setVelocityXEach(0);
         alienLeftRunner.x = 100
         alienLeftRunner.y = 6500
@@ -307,8 +307,8 @@ function draw() {
         //since I changed the camera position x to 3000,
         //what will display on screen will be 2400-3600
        
-        //camera.position.x = 3000
-        //camera.position.y = 350
+        camera.position.x = 3000
+        camera.position.y = 350
    
         rocketGroup.setVelocityXEach(0);
         
