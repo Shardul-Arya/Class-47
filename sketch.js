@@ -26,7 +26,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(3600, 1400)
+    createCanvas(1200, 700)
     backgr0und = createSprite(600, 350, 1200, 700);
     backgr0und.addImage(backgroundImage)
     backgr0und.scale = 2.5
